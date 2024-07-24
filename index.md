@@ -1,4 +1,3 @@
-<!-- ![A standard profile of myself](/images/pic_of_me.jpg) --!>
 ```html
 <img style="border-radius:10%" src="/images/pic_of_me.jpg" alt="A standard profile of myself" width="120">
 ```
