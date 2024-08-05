@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Limelight';
+    src: url('/assets/fonts/Limelight/Limelight-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('/assets/fonts/Orbitron/Orbitron-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Offside';
+    src: url('/assets/fonts/Offside/Offside-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('/assets/fonts/JetBrains_Mono/JetBrainsMono-Regular.ttf');
+}
+
+html {
+    /*for background image*/
+    background-image: url(/assets/images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+body {
+    /*make background visible through text elements*/
+    background-color: transparent;
+    background-image: none;
+
+    color: #DEDEDE;
+    display: grid;
+
+    /* for footer*/
+    /* causing side effect that slight scroll is required always */
+    grid-template-rows:auto 1fr auto;
+    grid-template-columns: 100%; 
+    min-height:100vh;
+    min-height:100svh;
+}
+
+p.about-me-para {
+    font-family: 'JetBrainsMono';
+    font-size: 24px;
+    max-width: 700px;
+}
+
+nav {
+    font-family: 'Limelight';
+}
+
+header, footer {
+    padding: 0 20px 0 20px;
+}
+
+footer {
+    font-family: 'JetBrainsMono';
+    font-size: 27px;
+}
+
+a.nav-link {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-size: 36px;
+}
+
+a.nav-link:hover {
+    color:#FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+}
+
+/*padding on only subsequent elements*/
+a.nav-link + a.nav-link {
+    margin-left: 15px;
+}
+
+.border {
+    border: none;
+    height: 0.8px;
+    background-color: #465629;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section-header {
+    font-family: 'Orbitron';
+    font-size: 50px;
+}
+
+.intro-container
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-header {
+    font-family: 'Offside';
+    color: #FFFFFF;
+    font-size: 64px;
+    text-align: center;
+    position: relative;
+    /* aligns it well with headshot */
+    right: 15%;
+    padding-left: 10%;
+}
+
+.headshot {
+    width: 182px;
+    height: 270px;
+    position: relative;
+    right: 15%;
+    margin-left: 80px;
+    border-radius: 25%;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.vertical-line {
+    border-left: 4px solid #ffffff;
+    height: 50px;
+    position: relative;
+    bottom: 5px;
+    margin: 0 10px 0 10px
+}
