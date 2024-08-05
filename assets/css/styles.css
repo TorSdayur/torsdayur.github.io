@@ -63,7 +63,7 @@ footer {
 a.nav-link {
     color: #DEDEDE;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 44px;
 }
 
 a.nav-link:hover {
@@ -112,11 +112,11 @@ a.nav-link + a.nav-link {
 }
 
 .headshot {
-    width: 182px;
-    height: 270px;
+    width: 250px;
+    height: 370px;
     position: relative;
     right: 15%;
-    margin-left: 80px;
+    margin-left: 60px;
     border-radius: 25%;
 }
 
