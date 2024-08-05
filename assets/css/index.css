@@ -1,0 +1,36 @@
+.headshot {
+    width: 250px;
+    height: 370px;
+    position: relative;
+    right: 15%;
+    margin-left: 60px;
+    border-radius: 25%;
+}
+
+p.about-me-para {
+    max-width: 700px;
+}
+
+.section-header {
+    font-family: 'Orbitron';
+    font-size: 50px;
+}
+
+.intro-container
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-header {
+    font-family: 'Offside';
+    color: #FFFFFF;
+    font-size: 64px;
+    text-align: center;
+    position: relative;
+    /* aligns it well with headshot */
+    right: 15%;
+    padding-left: 10%;
+}
