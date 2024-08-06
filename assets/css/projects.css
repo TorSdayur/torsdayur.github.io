@@ -1,0 +1,41 @@
+.project-card {
+    border: 1px solid #dedede;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgba(12,12,12, 0.65);
+    padding: 0 15px 0 15px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.cards-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-title {
+    font-family: 'Orbitron';
+    font-size: 36px;
+}
+
+.project-description {
+    font-size: 22px;
+}
+
+.project-deliminator {
+    border-style: dotted;
+}
+
+.card-footer {
+    position: absolute;
+    bottom: 0;
+    width: 400px;
+    padding-bottom: 5px;
+}
+
+.content {
+    padding: 5% 0 5% 0;
+}
