@@ -34,11 +34,8 @@ body {
     display: grid;
 
     /* for footer*/
-    /* causing side effect that slight scroll is required always */
     grid-template-rows:auto 1fr auto;
-    grid-template-columns: 100%; 
-    min-height:100vh;
-    min-height:100svh;
+    height: 99vh;
 
     padding: 0 20px 0 20px;
     font-family: 'JetBrainsMono';
